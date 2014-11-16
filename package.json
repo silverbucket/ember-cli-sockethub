@@ -35,5 +35,8 @@
   ],
   "ember-addon": {
     "configPath": "tests/dummy/config"
+  },
+  "dependencies": {
+    "sockethub-client": "^0.2.3"
   }
 }
