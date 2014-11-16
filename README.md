@@ -1,25 +1,17 @@
-# Ember-cli-sockethub
+# ember-cli-sockethub
 
-This README outlines the details of collaborating on this Ember addon.
+Ember CLI addon that includes 'sockethub-client' in the generated `vendor.js` build.
 
-## Installation
+## Installation / Usage
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+From within your Ember CLI application, run the following:
 
-## Running
+```sh
+npm install --save-dev ember-cli-sockethub
+```
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+You can then use the globally available `SockethubClient` object.
 
-## Running Tests
+## References
 
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+* [sockethub-client](https://github.com/sockethub/sockethub-client)
