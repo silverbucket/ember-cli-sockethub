@@ -11,7 +11,7 @@
   "bugs": "https://github.com/67p/ember-cli-sockethub/issues",
   "homepage": "https://github.com/67p/ember-cli-sockethub",
   "dependencies": {
-    "sockethub-client": "^0.2.3"
+    "sockethub-client": "^0.3.0"
   },
   "devDependencies": {},
   "keywords": [
